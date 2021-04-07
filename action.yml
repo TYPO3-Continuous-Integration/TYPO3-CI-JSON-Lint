@@ -1,0 +1,9 @@
+##
+name: 'TYPO3 CI JSON Lint'
+description: 'GitHub Action that lints your JSON code.'
+branding:
+  icon: check
+  color: orange
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
