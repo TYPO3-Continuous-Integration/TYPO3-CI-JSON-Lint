@@ -23,7 +23,7 @@ Lint() {
   echo "---------------------------------------------"
   echo "-- Running lint... ---"
   echo "---------------------------------------------"
-  find . ! -path '*.Build/*' ! -path '*Resources/Private/node_modules/*' -name '*.json' | xargs .Build/vendor/bin/jsonlint -q
+  find . ! -path '*.Build/*' ! -path '*Resources/Private/node_modules/*' -name '*.json' | xargs jsonlint -q
 }
 
 #### Function Footer ###########################################################
